@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="John Doe's professional portfolio showcasing web development projects and skills">
+    <meta name="keywords" content="web developer, portfolio, HTML, CSS, JavaScript">
+    <meta name="author" content="John Doe">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph / Social Media Meta Tags -->
+    <meta property="og:title" content="John Doe - Portfolio">
+    <meta property="og:description" content="Web developer with expertise in HTML, CSS, and JavaScript">
+    <meta property="og:type" content="website">
+    
+    <title>John Doe - Portfolio</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>John Doe</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about">
+            <div>
+                <img src="public/img/test.jpeg" alt="John Doe profile picture" width="350" height="400">
+            </div>
+            <article>
+                <h2>About Me</h2>
+                <p>Web developer with expertise in HTML, CSS, and JavaScript. Passionate about creating responsive and user-friendly websites.</p>
+            </article>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div>
+                <article>
+                    <h3>Personal Blog</h3>
+                    <p>A responsive blog built with HTML and deployed on GitHub Pages.</p>
+                    <a href="#">View Project</a>
+                </article>
+
+                <article>
+                    <h3>Portfolio Site</h3>
+                    <p>A personal portfolio showcasing my web development projects.</p>
+                    <a href="#">View Project</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="/submit-form" method="POST">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                </div>
+                
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                </div>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <div>
+            <a href="https://github.com/johndoe">GitHub</a>
+            <a href="https://linkedin.com/in/johndoe">LinkedIn</a>
+            <a href="https://twitter.com/johndoe">Twitter</a>
+        </div>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
